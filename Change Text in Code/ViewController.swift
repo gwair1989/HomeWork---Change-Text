@@ -32,7 +32,7 @@ class ViewController: UIViewController {
                 changeLabel.text = "\(firstСharacter)" + "\(text.dropFirst())?"
                 return
             }else{
-                changeLabel.text = textField.text
+                changeLabel.text = "\(text)."
             }
         }
     }
